@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Md Aslam's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Md Aslam</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#cp">Competitive Programming</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Md Aslam</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#cp" onclick="toggleMenu()">Competitive Programming</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+    
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Md Aslam</h1>
+        <p class="section__text__p2">Back-End Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1aJNzRQDWclhNn_G08mV6DSmZRgFgLFk3/view?usp=drive_link')"
+          >
+            Download Resume
+          </button>
+          
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ashik-aslam-77a98a251/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ashikaslam'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br /> Back-End Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Diploma-In-Computer Technology (2020-2024)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              With over two years of focused learning in programming and web development, I have built a strong foundation in backend development. My journey includes mastering problem-solving skills and data structures and algorithms through C++. I have gained proficiency in MySQL and Python, including object-oriented programming, and have developed expertise in Django. Additionally, I have some knowledge of frontend technologies like CSS and JavaScript. I am eager to bring my skills and passion to a role as an intern or junior backend developer, where I can contribute effectively and continue to grow.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+
+                
+
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks & Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://i.ibb.co/C85ypdr/IMG-20240710-172320-927.jpg"
+                alt="Foodtables"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Foodtables</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ashikaslam/Food_site'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://food-site-c564.onrender.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://i.ibb.co/KFwHjT6/Screenshot-20240710-171051-Chrome.jpg"
+                alt="Neighborhood Marketplace"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Neighborhood Marketplace</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ashikaslam/Neighborhood_Marketplace'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ashikaslam.github.io/Neighborhood_Marketplace_front_code/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+         
+
+
+
+
+
+
+
+
+
+
+      
+      
+
+    </section>
+
+
+
+
+
+<section id="cp">
+
+
+<!--  problem solviing start -->
+
+<!-- Problem-solving -->
+
+<div class="container mx-auto">
+  <!-- top -->
+  <div class="flex flex-col gap-3 items-center">
+    <h1 class="text-indigo-600 font-bold">Competitive Programming</h1>
+    <h1 class="text-3xl dark:text-white">What do I achive?</h1>
+    <p class="w-1/2 text-center text-gray-400">
+      Here are my achievements in my Competitive Programming career
+    </p>
+  </div>
+  <!-- bottom -->
+  <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+    
+
+
+    <!-- card -->
+    <div
+      class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+    >
+      <img class="w-10" src="./img/codeforces.png" alt="" />
+      <h3 class="font-medium text-lg">Codeforces</h3>
+      
+      <p>500+ problems</p>
+      <p>max reating 1150+</p>
+      <p>Participated in 50+ contests</p>
+      <a class="text-indigo-600 font-semibold text-sm" href="https://codeforces.com/profile/ashikaslam"
+        >visit my id</a
+      >
+    </div>
+    <!-- card -->
+    <div
+      class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+    >
+      <img class="w-10" src="./img/codechef.jpeg" alt="" />
+      <h3 class="font-medium text-lg ">CodeChef</h3>
+      
+      <p>150+ problems</p>
+      <p>max reating 1570+</p>
+      <p>Participated in 30+ contests</p>
+      <a class="text-indigo-600 font-semibold text-sm" href="https://www.codechef.com/users/ashikaslam1111"
+        >visit my id</a
+      >
+    </div>
+    <!-- card -->
+    <div
+      class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+    >
+      <img class="w-10" src="./img/leecode2.png" alt="" />
+      <h3 class="font-medium text-lg ">Leetcode</h3>
+     
+
+     
+      <p>220+ problems</p>
+      <p>max reating 1550+</p>
+      <p>Participated in 10+ contests</p>
+      <a class="text-indigo-600 font-semibold text-sm" href="https://leetcode.com/u/ashikaslam/"
+        >visit my id</a
+      >
+    </div>
+  </div>
+</div>
+
+
+
+<!--  problem solviing end -->
+
+
+</section>
+
+<!--  -->
+
+
+
+
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:ashikaslam0000@gmail.com">ashikaslam0000@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ashik-aslam-77a98a251/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#cp">Competitive Programming</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+     
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
